@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Noto;
+  outline: none;
+}
+
+@font-face {
+  font-family: Noto;
+  src: url(NotoSerifKhojki-Regular.ttf);
+}
+.main-container {
+  width: 80%;
+  height: 800px;
+  position: relative;
+  margin: 70px auto;
+}
+.main-container .first-img {
+  position: absolute;
+  width: 370px;
+  height: 500px;
+  top: 0;
+  left: 30px;
+  right: 70%;
+}
+.main-container .beige-div {
+  background-color: rgb(248, 208, 178);
+  position: absolute;
+  width: 370px;
+  height: 500px;
+  top: 30px;
+  left: 0;
+  right: 80%;
+  z-index: -1;
+}
+.main-container .pink-div {
+  background-color: rgb(246, 214, 222);
+  position: absolute;
+  top: 90px;
+  right: 0;
+  left: 0;
+  bottom: 330px;
+  z-index: -2;
+}
+.main-container .name-container {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  left: 450px;
+}
+.main-container .name-container .p-1 {
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.main-container .name-container h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+.main-container .name-container .p-2 {
+  margin-top: 20px;
+}
+.main-container .name-container button {
+  border: 2px solid rgb(79, 78, 78);
+  padding: 7px 30px;
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.main-container .second-img {
+  position: absolute;
+  width: 300px;
+  top: 410px;
+  right: 50px;
+  left: 67%;
+}
+.main-container .p-container {
+  position: absolute;
+  top: 600px;
+  right: 400px;
+  left: 30px;
+}
+.main-container .p-container h3 {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.second-container {
+  width: 80%;
+  height: 800px;
+  position: relative;
+  margin: 70px auto;
+  display: flex;
+}
+.second-container .third-img {
+  width: 50%;
+}
+.second-container .fourth-img {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 540px;
+}
+.second-container .pink-div2 {
+  background-color: rgb(246, 214, 222);
+  color: rgb(246, 214, 222);
+  height: 380px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  left: 650px;
+  z-index: -1;
+}
+.second-container .name-container2 {
+  position: absolute;
+  top: 560px;
+  left: 590px;
+}
+.second-container .name-container2 h2 {
+  font-size: 50px;
+}
+.second-container .name-container2 p {
+  margin-top: 10px;
+}
+
+.third-container {
+  background-image: url(beauty-concept-blog-professional-female-makeup-accessories-watch-bracelet-lipstick-powder-pink-background-women-s-background-fashion-instagram-women-s-things-flat-lay_96270-312.jpg);
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: 70px auto;
+  background-size: cover;
+}
+.third-container h2 {
+  font-size: 60px;
+  padding-top: 90px;
+  padding-left: 100px;
+}
+.third-container p {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 550px;
+  margin-bottom: 20px;
+}
+.third-container a {
+  margin-left: 100px;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  font-weight: bold;
+}
+
+.fourth-container {
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+  height: 600px;
+}
+.fourth-container .one-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 60%;
+  height: 500px;
+  width: 250px;
+}
+.fourth-container .pink-div3 {
+  background-color: rgb(246, 214, 222);
+  color: rgb(246, 214, 222);
+  height: 380px;
+  position: absolute;
+  top: 70px;
+  right: 250px;
+  left: 50px;
+  z-index: -1;
+  height: 470px;
+}
+.fourth-container .two-img {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 500px;
+}
+.fourth-container .name-container3 {
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  padding: 10px;
+}
+.fourth-container .name-container3 h2 {
+  font-size: 50px;
+}
+.fourth-container .name-container3 p {
+  width: 40%;
+}
+
+.last-container {
+  background-color: rgb(246, 243, 238);
+  width: 100%;
+  height: 380px;
+  text-align: center;
+}
+.last-container h2 {
+  padding-top: 70px;
+  font-size: 60px;
+}
+.last-container p {
+  width: 68%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0;
+  padding-bottom: 30px;
+}
+.last-container form {
+  width: 68%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.last-container form .input1 {
+  width: 42%;
+  background-color: transparent;
+  padding-left: 5px;
+}
+.last-container form .input2 {
+  width: 42%;
+  background-color: transparent;
+  padding-left: 5px;
+}
+.last-container form button {
+  background-color: black;
+  color: white;
+  padding: 8px 30px;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  padding: 50px;
+}
+.footer-container div {
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+.footer-container div h2 {
+  font-size: 17px;
+}
+.footer-container div p {
+  font-size: 14px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.son-container {
+  background-color: rgb(123, 123, 123);
+  height: 120px;
+}
+.son-container p {
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.son-container a {
+  color: rgb(232, 98, 98);
+}/*# sourceMappingURL=style.css.map */
